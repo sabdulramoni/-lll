@@ -10,7 +10,7 @@ exec('bin/001', (err, stdout, stderr) => {
   }
   return res.send(`${stdout}`);
 });
-});
+});    
 
 app.get('/aws', function (req,res) {
 const { exec } = require('child_process');
